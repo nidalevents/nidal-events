@@ -75,7 +75,7 @@ function App() {
         </div>
       </section>
 
-      <section className="services" id="services">
+      <section className="services" f>
   <div className="services-header">
     <span>ما نقدمه لك</span>
     <h2>خدماتنا</h2>
@@ -162,7 +162,7 @@ function App() {
 <footer className="footer">
   <div className="footer-content">
     <img
-      src="/logo.png"
+      src={`${import.meta.env.BASE_URL}logo.png`}
       alt="Nidal Events"
       className="footer-logo"
     />
