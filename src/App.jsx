@@ -9,9 +9,15 @@ function App() {
   return (
     <main dir="rtl">
       <header className="navbar">
-    <div className="brand">
-  <img src="/logo.png" alt="Nidal Events" className="brand-logo" />
-</div><button
+<div className="brand">
+  <img
+    src={`${import.meta.env.BASE_URL}logo.png`}
+    alt="Nidal Events"
+    className="brand-logo"
+  />
+</div>
+
+<button
   className="menu-toggle"
   onClick={() => setMenuOpen(!menuOpen)}
 >
